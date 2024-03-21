@@ -53,7 +53,7 @@ export const mainStore = defineStore("mainData", {
         {
           label: "IT之家",
           name: "ithome",
-          order: 7,
+          order: 23,
           show: true,
         },
         {
@@ -139,19 +139,19 @@ export const mainStore = defineStore("mainData", {
           label: "QQ音乐热歌榜",
           name: "qq_music_toplist",
           params: { type: 1 },
-          order: 21,
+          order: 22,
           show: true,
         },
         {
           label: "NGA",
           name: "ngabbs",
-          order: 22,
+          order: 21,
           show: true,
         },
         {
           label: "V2EX",
           name: "v2ex",
-          order: 23,
+          order: 7,
           show: true,
         },
       ],
