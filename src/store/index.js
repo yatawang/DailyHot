@@ -51,11 +51,11 @@ export const mainStore = defineStore("mainData", {
           show: true,
         },
         {
-          label: "IT之家",
-          name: "ithome",
-          order: 23,
+          label: "V2EX",
+          name: "v2ex",
+          order: 7,
           show: true,
-        },
+        }, 
         {
           label: "澎湃新闻",
           name: "thepaper",
@@ -134,6 +134,12 @@ export const mainStore = defineStore("mainData", {
           params: { type: 1 },
           order: 20,
           show: true,
+        },       
+        {
+          label: "NGA",
+          name: "ngabbs",
+          order: 21,
+          show: true,
         },
         {
           label: "QQ音乐热歌榜",
@@ -143,15 +149,9 @@ export const mainStore = defineStore("mainData", {
           show: true,
         },
         {
-          label: "NGA",
-          name: "ngabbs",
-          order: 21,
-          show: true,
-        },
-        {
-          label: "V2EX",
-          name: "v2ex",
-          order: 7,
+          label: "IT之家",
+          name: "ithome",
+          order: 23,
           show: true,
         },
       ],
