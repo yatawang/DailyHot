@@ -6,7 +6,6 @@
         class="author"
         :depth="3"
         v-html="packageJson.author"
-        //@click="jumpLink(packageJson.github)"
       />
     </div>
     <n-text
