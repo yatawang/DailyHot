@@ -4,7 +4,7 @@
       <div class="logo" @click="router.push('/')">
         <img src="/ico/favicon.png" alt="logo" />
         <div class="name">
-          <n-text>今日热榜</n-text>
+          <n-text>2024年中国今日热搜榜</n-text>
           <n-text :depth="3">汇聚全网热点，热门尽览无余</n-text>
         </div>
       </div>
